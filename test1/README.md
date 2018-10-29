@@ -1,0 +1,1 @@
+This test demonstrates doing a docker build and then saving layers from one docker-in-docker container to the host docker engine, then reconsituting them in another docker-in-docker container in order that they are used as cached layers to speed up the same docker build.
